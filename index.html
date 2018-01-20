@@ -2,68 +2,55 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
-        <title>Ted Hodges's Basic Portfolio</title>
+        <title>About</title>
+        <link rel="stylesheet" type="text/CSS" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/CSS" href="assets/css/style.css">
     </head>
 
     <body>
 
-        <div id="header">
-
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-
-                </ul>
-            </div>
-
-            <div class="top">Ted Hodges</div>
-
-        </div> 
-
-        <div class="about">
+        <header id="masthead">
 
             <div class="container">
 
-            <h2>About Me</h2>
-            <hr>
-            <img src="assets/images/ted_portrait.jpg" alt="Ted Hodges" id="ted">
-            <p>Ted is learning to be a full-stack web devleoper in the KU Coding Boot Camp. Currently, he is a marketing manager at Saint Luke's Health System. He has experience in copywriting, graphic design, and project management.</p>
-            <p>Ted graduated from the University of Notre Dame with a Bachelor of Art in English. He earned his Master of Business Administration at Kansas Wesleyan University. At Notre Dame, he fenced for the 2011 NCAA Nationship Championship team.</p>
-            <p>In his personal life, Ted volunteers at the Midwest Transplant Network, enjoys (sometimes) watching the Chiefs, Royals, and Jayhawks, and spends time with his family and friends.</p>
-            
+            <a id="logo">Ted Hodges</a>
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
             </div>
-       
-        </div>
+        </header> 
 
-        <!-- side bar contact info-->
-        <div class="sidebar">
+        <div id="main-container" class="container">
 
-            <div class="container">
+            <section class="main-section">
 
-            <h2>Connect with Me</h2>
-            <hr>
-                <div class="social">
+                <h1>About Me</h1>
 
-                <ul>
-                    <li><a href="https://github.com/thodges36"><img src="assets/images/github.svg" alt="GitHub logo" id="icon"></a></li>
-                    <li><a href="https://www.linkedin.com/in/ted-hodges-09a9b081/"><img src="assets/images/linkedin.svg" alt="LinkedIn logo" id="icon"></a></li>
-                    <li><a href="https://stackexchange.com/users/12408256/ted-hodges"><img src="assets/images/overflow.svg" alt="Stack Overflow logo" id="icon"></a></li>
-                </ul>
-                
+                <img src="assets/images/ted_portrait.jpg" alt="Ted Hodges" class="auth-image">
+
+                <p>Ted is learning to be a full-stack web devleoper in the KU Coding Boot Camp. Currently, he is a marketing manager at Saint Luke's Health System. He has experience in copywriting, graphic design, and project management.</p>
+                <p>Ted graduated from the University of Notre Dame with a Bachelor of Art in English. He earned his Master of Business Administration at Kansas Wesleyan University. At Notre Dame, he fenced for the 2011 NCAA Nationship Championship team.</p>
+                <p>In his personal life, Ted volunteers at the Midwest Transplant Network, enjoys (sometimes) watching the Chiefs, Royals, and Jayhawks, and spends time with his family and friends.</p>
+            </section>
+        
+            <section class="sidebar">
+
+                <div id="connect">
+
+                    <h2>Connect with Me</h2>
+
+                    <a href="https://github.com/thodges36"><img src="assets/images/github.svg" alt="GitHub logo" class="social"></a>
+                    <a href="https://www.linkedin.com/in/ted-hodges-09a9b081/"><img src="assets/images/linkedin.svg" alt="LinkedIn logo" class="social"></a>
+                    <a href="https://stackexchange.com/users/12408256/ted-hodges"><img src="assets/images/overflow.svg" alt="Stack Overflow logo" class="social"></a>
                 </div>
-                
-            </div>
+            </section>
 
         </div>
 
+        <footer>
+            <div class="container">&copy;Copyright 2018 Ted Hodges</div>
+        </footer>
     </body>
-
-    <div class="footer">
-        <div class="footer-center">&copy;Copyright 2018 Ted Hodges</div>
-    </div>
-
-
 </html>
