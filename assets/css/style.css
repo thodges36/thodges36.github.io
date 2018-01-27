@@ -210,3 +210,106 @@ input[type=submit] {
   border: 0 none;
 }
   
+@media screen and (max-width: 980px) {
+  .port{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .box {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 0;   
+  }
+  .sidebar{
+    float: left;
+    width: 100%;
+    padding: 20px;
+  }
+  .port{
+    width: 40%;
+  }
+  .main-section {
+    margin: 10px;
+    width: 100%;
+    max-width: 750px;
+  }
+  .sidebar{
+    float: left;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    max-width: 750px;
+  }
+  nav {
+    float: right;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+}
+
+@media screen and (max-width: 640px) {
+.box{
+  float: left;
+  width: 100%;
+  padding:0;
+}
+#top{
+  position: static;
+  width: 100%;
+  height: auto;
+  clear: both;
+  overflow: auto;
+}
+
+#main-container {
+  padding-top: 10px;
+}
+
+#ted-box {
+  color: #ffffff;
+  background: #4aaaa5;
+  width: 100%;
+}
+nav {
+  margin-top: 10px;
+  margin-right: 0;
+  margin-left: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+nav a {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+nav a:first-child {
+  border-left: 0 none;
+  margin-left: 135px;
+}
+
+.main-section {
+  margin: 10px;
+  max-width: 620px;
+}
+.sidebar{
+  float: left;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  max-width: 620px;
+}
+.port{
+  width: 100%;
+}
+footer{
+  width: 100;
+  text-align: center;
+  padding: 0;
+}
+}
