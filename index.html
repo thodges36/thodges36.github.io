@@ -1,58 +1,81 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>About</title>
-        <link rel="stylesheet" type="text/CSS" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/CSS" href="assets/css/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<html lang="en">
 
-    </head>
+<head>
+	<title>Hangman | Wild Wild West Version</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
 
-    <body>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
 
-        <header id="top">
+</head>
 
-            <div class="box">
+<body>
+	<div class="container">
 
-            <a id="ted-box">Ted Hodges</a>
-                <nav>
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-                </nav>
-            </div>
-        </header> 
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-        <div id="main-container" class="box">
+				<div class="text-center" id="hangman-intro">
+					<p>Hangman: Wild West Edition</p>
+				</div>
 
-            <section class="main-section">
+				<div class="text-center">
+					<p id="subhead">Try to guess the current word! </p>
+					<p id="subhead">Press any key to get started.</p>
+				</div>
 
-                <h1>About Me</h1>
+			</div>
+		</div>
 
-                <img src="assets/images/ted_portrait.jpg" alt="Ted Hodges" class="ted-photo">
 
-                <p>Ted is learning to be a full-stack web devleoper in the KU Coding Boot Camp. Currently, he is a marketing manager at Saint Luke's Health System. He has experience in copywriting, graphic design, and project management.</p><br />
-                <p>Ted graduated from the University of Notre Dame with a Bachelor of Art in English. He earned his Master of Business Administration at Kansas Wesleyan University. At Notre Dame, he fenced for the 2011 NCAA Nationship Championship team.</p><br />
-                <p>In his personal life, Ted volunteers at the Midwest Transplant Network, enjoys (sometimes) watching the Chiefs, Royals, and Jayhawks, and spends time with his family and friends.</p><br />
-            </section>
-        
-            <section class="sidebar">
+		<div class="row" id="gameContainer">
 
-                <div id="connect">
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="leftColumn">
+				<div class="row">
+					<div class="col-xs-3 col-sm-3 col-md-6 col-lg-6 imgDivs" id="wildWest">
+						<img src="assets/images/wildwesthangman300.jpg" alt="Wild West" class="center-block img-responsive">
+					</div>
 
-                    <h2>Connect with Me</h2>
+				</div>
 
-                    <a href="https://github.com/thodges36"><img src="assets/images/github.svg" alt="GitHub logo" class="social"></a>
-                    <a href="https://www.linkedin.com/in/ted-hodges-09a9b081/"><img src="assets/images/linkedin.svg" alt="LinkedIn logo" class="social"></a>
-                    <a href="https://stackexchange.com/users/12408256/ted-hodges"><img src="assets/images/overflow.svg" alt="Stack Overflow logo" class="social"></a>
-                </div>
-            </section>
 
-        </div>
+			</div>
 
-        <footer>
-            <div class="box">&copy;Copyright 2018 Ted Hodges</div>
-        </footer>
-    </body>
+			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" id="rightColumn">
+
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="currentWord">
+
+						<div>
+							<h3>Current Word</h3>
+						</div>
+						<div>
+							<h2 id="theWord"> </h2>
+						</div>
+						<div>
+							<h3 id="wins">WINS</h3>
+						</div>
+						<div>
+							<h3 id="remGuesses">Number of Guesses Remaining: </h4>
+						</div>
+						<div>
+							<h3 id="guessedLetters">Letters Already Guessed: </h4>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
 </html>
