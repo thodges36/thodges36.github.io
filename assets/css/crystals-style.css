@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(165, 214, 214);
+}
+
+#header{
+    background-color: rgb(204, 135, 7);
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-size: 2em;
+    padding: 20px 0;
+    overflow: auto;
+
+
+}
+
+
+#main-container{
+    background-color: rgb(226, 207, 183);
+    color: green;
+    padding: 10px;
+    margin: 10px 0;
+    width: 50%;
+
+}
+
+#row{
+    width: 100%;
+  }
+
+#target-number-container{
+    background-color: rgb(32, 165, 32);
+    width: 20%;
+    color: rgb(95, 2, 95);
+    padding: 5px;
+    font-size: 1.5em;
+    height: 100px; 
+}
+
+
+
+#wins-losses-container{
+    background-color: rgb(121, 248, 248);
+    color: rgb(5, 5, 85);
+    width: 15%;
+    padding: 5px;
+    margin: 5px 0;
+    
+}
+
+.jewel{
+    width: 100px;
+}
+
+#total-score-top-container{
+    background-color: teal;
+    color: white;
+    width: 25%;
+}
+
+#total-score-container{
+    background-color: teal;
+    color: white;
+    width: 25%;
+    padding: 1px;
+
+}
