@@ -10,6 +10,11 @@ body{
     font-size: 2em;
     padding: 20px 0;
     overflow: auto;
+}
+
+p {
+    padding: 5px 0 5px 0;
+    line-height: 1.2;
 
 
 }
@@ -56,6 +61,7 @@ body{
     background-color: teal;
     color: white;
     width: 25%;
+    margin: 5px 0;
 }
 
 #total-score-container{
