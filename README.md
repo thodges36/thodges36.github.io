@@ -1,6 +1,4 @@
-# GifTastic
-### Homework from 06-ajax
+# Ted Hodges Portfolio
+Ted is learning to be a full-stack web devleoper in the KU Coding Boot Camp. Currently, he is a marketing manager at Saint Luke's Health System. He has experience in copywriting, graphic design, and project management.
 
-I've attempted to create a dynamic web page that populates with gifs of your choice via the Giphy Api. At a high level, the page should display current buttons from an array, add new buttons entered via the form shown on the page, dispay gifs when the user clicks on the button, and - when the user clicks on the gif - the gifs' states are started and stopped.
-
-Unfortunately, after several commits shown in GitHub, I've been able to do many of the functionality requirements (rendering buttons new and existing, displaying gifs, etc.) but I'm not able to combine all of those individual elements into a working web page. 
+This is his professional portfolio.

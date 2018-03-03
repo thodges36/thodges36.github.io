@@ -1,0 +1,37 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <title>Giphy Generator</title>
+
+        <link rel="stylesheet" href="assets/css/gif.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Gif Generator: Celebrities Version</h1>
+
+            <!-- Rendered buttons will get dumped here -->
+            <div id="buttons-view"></div>
+
+            <form id="form">
+                <label for="gif-input">Add gif here</label>
+                <input type="text" id="gif-input"><br>
+
+                <!-- Button triggers new gif to be added -->
+                <input id="add-gif" type="submit" value="add a gif please">
+
+            </form>
+
+              <!-- Gifs will be dumped here -->
+              <div id="gifs-view"></div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script type="text/javascript" src="assets/javascript/gif.js"></script>
+    </body>
+
+    </html>
+</DOCTYPE>
